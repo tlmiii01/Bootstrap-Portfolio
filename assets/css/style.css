@@ -21,3 +21,12 @@ img {
     height: 60px;
 }
 
+.portfolio-links {
+    color: #333;
+    /* padding: 0 auto; */
+    /* margin-top: 75%; */
+    height: 2rem;
+    width: 100%;
+    background: #eee; 
+}
+
