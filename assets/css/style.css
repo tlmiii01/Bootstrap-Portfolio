@@ -3,19 +3,45 @@ body, html{
 }
 
 body {
-    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/light-grey-terrazzo.png")
 }
 
+.container-fluid {
+    background: #fff;
+    border-bottom: 2px solid #cccccc;
+}
 
+.bg-light {
+    background: #fff;
+}
+
+.bg-teal {
+    background: #4aaaa5;
+}
+
+.content-border {
+    border: 2px solid #dddddd;
+}
+
+h1, .navbar-brand {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.7em;
+}
+
+.content-heading {
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    background: #4aaaa5;
+    color: #fff;
+}
 
 img {
     width: 250px;
     height: 250px;
-}
-
-.footer {
-    flex-shrink: 0;
-    height: 60px;
 }
 
 .portfolio-links {
