@@ -25,6 +25,16 @@ body {
     border: 2px solid #dddddd;
 }
 
+.my-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.row-border {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1.5rem;
+}
+
 h1, .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.7em;
@@ -39,21 +49,24 @@ h1, .navbar-brand {
     color: #fff;
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.card {
+    width: 16rem;
+    height: 16rem;
 }
 
 .portfolio-links {
-    color: #333;
     text-align: center;
     padding: 0.3rem 0;
-    /* padding: auto; */
     margin-top: 80%;
-    height: 2rem;
+    height: 2.5rem;
     width: 100%;
-    background: #eee; 
+    background: #4aaaa5;     
+}
+
+.portfolio-links > a {
+    color: #fff;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .card-img {

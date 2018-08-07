@@ -14,9 +14,9 @@
 <body>
     <div>
         <div class="container-fluid">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Thomas Martin</a>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+                    <span class="navbar-brand m-0 p-2 bg-teal text-white">Thomas Martin</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link py-2" href="./index.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link py-2" href="./portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link py-2" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -38,26 +38,29 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <h1>Contact</h1>
+        <div class="container bg-light mt-4 content-border">
+            <div class="row row-border">
+                <h1 class="content-heading">Contact</h1>
             </div>
-            <form>
-                <div class="form-group">
-                    <label for="contactName">Name</label>
-                    <input type="text" class="form-control" id="contactName" placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                    <label for="contactEmail">Email address</label>
-                    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="contactComments">Comments</label>
-                    <textarea class="form-control" name="contactComments" id="contactComments" rows="10"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <div class="row">
+                <form class="container">
+                    <div class="form-group">
+                        <label for="contactName">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email address</label>
+                        <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactComments">Comments</label>
+                        <textarea class="form-control" name="contactComments" id="contactComments" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn bg-teal text-white mb-4">Submit</button>
+                </form>
+            </div>
         </div>
+        
         <nav class="navbar fixed-bottom">
             <span class="mx-auto">
                 Copyright ©
@@ -72,5 +75,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
